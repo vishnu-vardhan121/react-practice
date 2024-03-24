@@ -35,7 +35,7 @@ class Products extends Component{
                         <React.Fragment key={eachObject.id}>
                             <UserCard 
                               header={eachObject.images[0]}
-                              name={eachObject.title}
+                              name={eachObject.name}
                             />
                         </React.Fragment>
                     )
