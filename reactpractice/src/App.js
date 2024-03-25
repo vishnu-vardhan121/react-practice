@@ -8,13 +8,15 @@ import UpdatePhase from './components/LifeCycle/updatingPhase';
 import UseStateEx1 from './components/functional/hooks/useStateEx1';
 import UseStateEx2 from './components/functional/hooks/useStateEx2';
 import UseStateEx3 from './components/functional/hooks/useStateEX3';
+import UnconntrolledComp from './components/functional/forms/uncontrolled';
+import ControlledComp from './components/functional/forms/controlled';
 
 
 
 function App() {
   return (
     <>
-    <UseStateEx3/>
+    <ControlledComp/>
     </>
   );
 }
