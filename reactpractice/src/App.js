@@ -10,13 +10,16 @@ import UseStateEx2 from './components/functional/hooks/useStateEx2';
 import UseStateEx3 from './components/functional/hooks/useStateEX3';
 import UnconntrolledComp from './components/functional/forms/uncontrolled';
 import ControlledComp from './components/functional/forms/controlled';
+import UseEffectEx1 from './components/functional/hooks/useEffect/useEffectEx1';
+import UseEffectEx2 from './components/functional/hooks/useEffect/useEffectEx2';
+import UseEffectEx3 from './components/functional/hooks/useEffect/useEffectEx3';
 
 
 
 function App() {
   return (
     <>
-    <ControlledComp/>
+    <UseEffectEx3/>
     </>
   );
 }
